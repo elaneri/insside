@@ -12,8 +12,6 @@ import com.insside.dao.InvoiceDAO;
 import com.insside.dto.InvoiceDTO;
 import com.insside.dto.InvoiceLineDTO;
 import com.insside.model.Invoice;
-import com.insside.model.InvoiceLine;
-import com.sun.tools.doclint.Entity;
 
 @Service
 @Transactional(readOnly = false)
