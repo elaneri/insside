@@ -2,15 +2,12 @@ package com.insside.service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.insside.dao.InvoiceDAO;
 import com.insside.dao.InvoiceLineDAO;
-import com.insside.dto.InvoiceDTO;
 import com.insside.dto.InvoiceLineDTO;
 import com.insside.model.Invoice;
 import com.insside.model.InvoiceLine;
